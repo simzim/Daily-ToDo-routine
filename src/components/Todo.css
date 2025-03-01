@@ -1,0 +1,24 @@
+.screen {  
+  font-family: "Poppins", serif;
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  background: #0f0c29; 
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+  width: 100%; 
+  min-height: 100vh;
+}  
+
+.tasks-container{
+  width: 80%;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 30px 10px ;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
